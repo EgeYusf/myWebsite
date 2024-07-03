@@ -1,0 +1,22 @@
+
+nav ul li a {
+
+   text-decoration: none;
+   color: black;
+   
+}
+
+a:hover{
+   color: white;
+}
+
+nav ul{
+   column-gap: 12px;
+   display: flex;
+   list-style-type: none;
+}
+
+p{
+   font-size: 23px;
+   
+}

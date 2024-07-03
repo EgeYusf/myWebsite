@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    height: 100vh;
+    padding-left: 1%;
+    padding-right: 6%;
+    background-image: url(images/dubai-marina-at-night-united-arab-emirates-uhd-4k-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+   
+    
+  
+    
+   
+
+}
+
+.navbar{
+    display: flex ;  /* Sağ tarafta kalmasını sağlıyor */
+    justify-content: space-between; /* En sağa atar */
+    align-items: center; /* Menüdeki yazıyı sayfaya biraz ortalar */
+    height: 12%;  /* Menudekı yazıların kapladığı alan */
+}
+
+
+
+nav ul{
+
+    list-style-type: none;
+    display: flex;  /* Yan yana koymayı sağlar */
+    column-gap: 18px;
+
+
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none; /* Yazının altındaki çizgiyi kaldırır */
+    transition: ease 0.7s; /* Yazıdaki hoverın efekti */
+
+}
+
+nav ul li a:hover {
+color: black;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    height: 65%;
+
+}
+   
+
+h1{
+    
+    color :white;
+    font-size: 90px
+    
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+.btn{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color:black;
+    color:white
+}
+
+p{
+    font-size: 22px;
+    color: white;
+}
